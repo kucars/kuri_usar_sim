@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sdf version="1.4">
+  <world name="default">
+     <model name="victim_doll_heat_with_box_1">
+      <static>true</static>
+      <link name="victim_doll_heat_with_box_1_link">
+        <pose>0 0 0 0 0 0</pose>
+        <collision name="victim_doll_heat_with_box_1_collision">
+          <geometry>
+            <mesh>
+              <uri>file://victim_doll_heat_with_box.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </collision>
+        <visual name="victim_doll_heat_with_box_1_visual">
+          <cast_shadows>false</cast_shadows>
+          <geometry>
+            <mesh>
+              <uri>file://victim_doll_heat_with_box.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+  </world>
+</sdf>

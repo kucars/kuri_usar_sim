@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sdf version="1.4">
+  <world name="default">
+       <model name="small_wall_triple_holes_2">
+      <static>true</static>
+      <link name="small_wall_triple_holes_2_link">
+        <pose>0 -1.2 0 0 0 0</pose>
+        <collision name="small_wall_triple_holes_2_collision">
+          <geometry>
+            <mesh>
+              <uri>file://small_wall_triple_holes.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </collision>
+        <visual name="small_wall_triple_holes_2_visual">
+          <cast_shadows>false</cast_shadows>
+          <geometry>
+            <mesh>
+              <uri>file://small_wall_triple_holes.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+  </world>
+</sdf>

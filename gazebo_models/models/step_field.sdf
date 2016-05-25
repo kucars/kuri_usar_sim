@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sdf version="1.4">
+  <world name="default">
+    <model name="stepfield_red_diagonal_2">
+      <static>true</static>
+      <link name="stepfield_red_diagonal_2_link">
+        <pose>0 0 0 0 0 0</pose>
+        <collision name="stepfield_red_diagonal_2_collision">
+          <geometry>
+            <mesh>
+              <uri>file://stepfield_red_diagonal.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </collision>
+        <visual name="stepfield_red_diagonal_2_visual">
+          <cast_shadows>false</cast_shadows>
+          <geometry>
+            <mesh>
+              <uri>file://stepfield_red_diagonal.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+  </world>
+</sdf>

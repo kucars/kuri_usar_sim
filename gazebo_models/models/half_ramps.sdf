@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sdf version="1.4">
+  <world name="default">
+   
+    <model name="half_ramp_2">
+      <static>true</static>
+      <link name="half_ramp_2_link">
+        <pose>0 0 0 0 0 0</pose>
+        <collision name="half_ramp_2_collision">
+          <geometry>
+            <mesh>
+              <uri>file://half_ramp.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </collision>
+        <visual name="half_ramp_2_visual">
+          <cast_shadows>false</cast_shadows>
+          <geometry>
+            <mesh>
+              <uri>file://half_ramp.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    
+    
+    
+    <model name="half_ramp_shifted_2">
+      <static>true</static>
+      <link name="half_ramp_shifted_2_link">
+        <pose>-3.6 0 0 0 0 0</pose>
+        <collision name="half_ramp_shifted_2_collision">
+          <geometry>
+            <mesh>
+              <uri>file://half_ramp_shifted.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </collision>
+        <visual name="half_ramp_shifted_2_visual">
+          <cast_shadows>false</cast_shadows>
+          <geometry>
+            <mesh>
+              <uri>file://half_ramp_shifted.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+  </world>
+</sdf>
